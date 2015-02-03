@@ -1,0 +1,2390 @@
+fileFormatVersion: 2
+guid: 71690ebae07ae6547b5b901e03c759b6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: kirby_sprite_sheet_by_comicart1-d71k8fe_0
+    21300002: kirby_sprite_sheet_by_comicart1-d71k8fe_1
+    21300004: kirby_sprite_sheet_by_comicart1-d71k8fe_14
+    21300006: kirby_sprite_sheet_by_comicart1-d71k8fe_15
+    21300008: kirby_sprite_sheet_by_comicart1-d71k8fe_16
+    21300010: kirby_sprite_sheet_by_comicart1-d71k8fe_17
+    21300012: kirby_sprite_sheet_by_comicart1-d71k8fe_18
+    21300014: kirby_sprite_sheet_by_comicart1-d71k8fe_19
+    21300016: kirby_sprite_sheet_by_comicart1-d71k8fe_20
+    21300018: kirby_sprite_sheet_by_comicart1-d71k8fe_21
+    21300020: kirby_sprite_sheet_by_comicart1-d71k8fe_22
+    21300022: kirby_sprite_sheet_by_comicart1-d71k8fe_23
+    21300024: kirby_sprite_sheet_by_comicart1-d71k8fe_24
+    21300026: kirby_sprite_sheet_by_comicart1-d71k8fe_25
+    21300028: kirby_sprite_sheet_by_comicart1-d71k8fe_26
+    21300030: kirby_sprite_sheet_by_comicart1-d71k8fe_32
+    21300032: kirby_sprite_sheet_by_comicart1-d71k8fe_33
+    21300034: kirby_sprite_sheet_by_comicart1-d71k8fe_34
+    21300036: kirby_sprite_sheet_by_comicart1-d71k8fe_35
+    21300038: kirby_sprite_sheet_by_comicart1-d71k8fe_36
+    21300040: kirby_sprite_sheet_by_comicart1-d71k8fe_37
+    21300042: kirby_sprite_sheet_by_comicart1-d71k8fe_38
+    21300044: kirby_sprite_sheet_by_comicart1-d71k8fe_39
+    21300046: kirby_sprite_sheet_by_comicart1-d71k8fe_40
+    21300048: kirby_sprite_sheet_by_comicart1-d71k8fe_41
+    21300050: kirby_sprite_sheet_by_comicart1-d71k8fe_47
+    21300052: kirby_sprite_sheet_by_comicart1-d71k8fe_48
+    21300054: kirby_sprite_sheet_by_comicart1-d71k8fe_49
+    21300056: kirby_sprite_sheet_by_comicart1-d71k8fe_50
+    21300058: kirby_sprite_sheet_by_comicart1-d71k8fe_51
+    21300060: kirby_sprite_sheet_by_comicart1-d71k8fe_52
+    21300062: kirby_sprite_sheet_by_comicart1-d71k8fe_53
+    21300064: kirby_sprite_sheet_by_comicart1-d71k8fe_54
+    21300066: kirby_sprite_sheet_by_comicart1-d71k8fe_55
+    21300068: kirby_sprite_sheet_by_comicart1-d71k8fe_64
+    21300070: kirby_sprite_sheet_by_comicart1-d71k8fe_65
+    21300072: kirby_sprite_sheet_by_comicart1-d71k8fe_66
+    21300074: kirby_sprite_sheet_by_comicart1-d71k8fe_67
+    21300076: kirby_sprite_sheet_by_comicart1-d71k8fe_68
+    21300078: kirby_sprite_sheet_by_comicart1-d71k8fe_69
+    21300080: kirby_sprite_sheet_by_comicart1-d71k8fe_70
+    21300082: kirby_sprite_sheet_by_comicart1-d71k8fe_71
+    21300084: kirby_sprite_sheet_by_comicart1-d71k8fe_72
+    21300086: kirby_sprite_sheet_by_comicart1-d71k8fe_88
+    21300088: kirby_sprite_sheet_by_comicart1-d71k8fe_89
+    21300090: kirby_sprite_sheet_by_comicart1-d71k8fe_90
+    21300092: kirby_sprite_sheet_by_comicart1-d71k8fe_91
+    21300094: kirby_sprite_sheet_by_comicart1-d71k8fe_92
+    21300096: kirby_sprite_sheet_by_comicart1-d71k8fe_93
+    21300098: kirby_sprite_sheet_by_comicart1-d71k8fe_94
+    21300100: kirby_sprite_sheet_by_comicart1-d71k8fe_95
+    21300102: kirby_sprite_sheet_by_comicart1-d71k8fe_96
+    21300104: kirby_sprite_sheet_by_comicart1-d71k8fe_97
+    21300106: kirby_sprite_sheet_by_comicart1-d71k8fe_111
+    21300108: kirby_sprite_sheet_by_comicart1-d71k8fe_112
+    21300110: kirby_sprite_sheet_by_comicart1-d71k8fe_113
+    21300112: kirby_sprite_sheet_by_comicart1-d71k8fe_114
+    21300114: kirby_sprite_sheet_by_comicart1-d71k8fe_115
+    21300116: kirby_sprite_sheet_by_comicart1-d71k8fe_129
+    21300118: kirby_sprite_sheet_by_comicart1-d71k8fe_130
+    21300120: kirby_sprite_sheet_by_comicart1-d71k8fe_131
+    21300122: kirby_sprite_sheet_by_comicart1-d71k8fe_132
+    21300124: kirby_sprite_sheet_by_comicart1-d71k8fe_133
+    21300126: kirby_sprite_sheet_by_comicart1-d71k8fe_134
+    21300128: kirby_sprite_sheet_by_comicart1-d71k8fe_135
+    21300130: kirby_sprite_sheet_by_comicart1-d71k8fe_136
+    21300132: kirby_sprite_sheet_by_comicart1-d71k8fe_137
+    21300134: kirby_sprite_sheet_by_comicart1-d71k8fe_138
+    21300136: kirby_sprite_sheet_by_comicart1-d71k8fe_145
+    21300138: kirby_sprite_sheet_by_comicart1-d71k8fe_146
+    21300140: kirby_sprite_sheet_by_comicart1-d71k8fe_147
+    21300142: kirby_sprite_sheet_by_comicart1-d71k8fe_148
+    21300144: kirby_sprite_sheet_by_comicart1-d71k8fe_149
+    21300146: kirby_sprite_sheet_by_comicart1-d71k8fe_152
+    21300148: kirby_sprite_sheet_by_comicart1-d71k8fe_153
+    21300150: kirby_sprite_sheet_by_comicart1-d71k8fe_154
+    21300152: kirby_sprite_sheet_by_comicart1-d71k8fe_155
+    21300154: kirby_sprite_sheet_by_comicart1-d71k8fe_156
+    21300156: kirby_sprite_sheet_by_comicart1-d71k8fe_157
+    21300158: kirby_sprite_sheet_by_comicart1-d71k8fe_158
+    21300160: kirby_sprite_sheet_by_comicart1-d71k8fe_159
+    21300162: kirby_sprite_sheet_by_comicart1-d71k8fe_160
+    21300164: kirby_sprite_sheet_by_comicart1-d71k8fe_161
+    21300166: kirby_sprite_sheet_by_comicart1-d71k8fe_162
+    21300168: kirby_sprite_sheet_by_comicart1-d71k8fe_163
+    21300170: kirby_sprite_sheet_by_comicart1-d71k8fe_164
+    21300172: kirby_sprite_sheet_by_comicart1-d71k8fe_165
+    21300174: kirby_sprite_sheet_by_comicart1-d71k8fe_166
+    21300176: kirby_sprite_sheet_by_comicart1-d71k8fe_167
+    21300178: kirby_sprite_sheet_by_comicart1-d71k8fe_168
+    21300180: kirby_sprite_sheet_by_comicart1-d71k8fe_172
+    21300182: kirby_sprite_sheet_by_comicart1-d71k8fe_173
+    21300184: kirby_sprite_sheet_by_comicart1-d71k8fe_174
+    21300186: kirby_sprite_sheet_by_comicart1-d71k8fe_175
+    21300188: kirby_sprite_sheet_by_comicart1-d71k8fe_176
+    21300190: kirby_sprite_sheet_by_comicart1-d71k8fe_177
+    21300192: kirby_sprite_sheet_by_comicart1-d71k8fe_178
+    21300194: kirby_sprite_sheet_by_comicart1-d71k8fe_179
+    21300196: kirby_sprite_sheet_by_comicart1-d71k8fe_180
+    21300198: kirby_sprite_sheet_by_comicart1-d71k8fe_181
+    21300200: kirby_sprite_sheet_by_comicart1-d71k8fe_182
+    21300202: kirby_sprite_sheet_by_comicart1-d71k8fe_183
+    21300204: kirby_sprite_sheet_by_comicart1-d71k8fe_184
+    21300206: kirby_sprite_sheet_by_comicart1-d71k8fe_195
+    21300208: kirby_sprite_sheet_by_comicart1-d71k8fe_196
+    21300210: kirby_sprite_sheet_by_comicart1-d71k8fe_197
+    21300212: kirby_sprite_sheet_by_comicart1-d71k8fe_198
+    21300214: kirby_sprite_sheet_by_comicart1-d71k8fe_199
+    21300216: kirby_sprite_sheet_by_comicart1-d71k8fe_200
+    21300218: kirby_sprite_sheet_by_comicart1-d71k8fe_201
+    21300220: kirby_sprite_sheet_by_comicart1-d71k8fe_202
+    21300222: kirby_sprite_sheet_by_comicart1-d71k8fe_203
+    21300224: kirby_sprite_sheet_by_comicart1-d71k8fe_204
+    21300226: kirby_sprite_sheet_by_comicart1-d71k8fe_205
+    21300228: kirby_sprite_sheet_by_comicart1-d71k8fe_206
+    21300230: kirby_sprite_sheet_by_comicart1-d71k8fe_207
+    21300232: kirby_sprite_sheet_by_comicart1-d71k8fe_208
+    21300234: kirby_sprite_sheet_by_comicart1-d71k8fe_209
+    21300236: kirby_sprite_sheet_by_comicart1-d71k8fe_210
+    21300238: kirby_sprite_sheet_by_comicart1-d71k8fe_211
+    21300240: kirby_sprite_sheet_by_comicart1-d71k8fe_212
+    21300242: kirby_sprite_sheet_by_comicart1-d71k8fe_213
+    21300244: kirby_sprite_sheet_by_comicart1-d71k8fe_214
+    21300246: kirby_sprite_sheet_by_comicart1-d71k8fe_215
+    21300248: kirby_sprite_sheet_by_comicart1-d71k8fe_216
+    21300250: kirby_sprite_sheet_by_comicart1-d71k8fe_217
+    21300252: kirby_sprite_sheet_by_comicart1-d71k8fe_228
+    21300254: kirby_sprite_sheet_by_comicart1-d71k8fe_229
+    21300256: kirby_sprite_sheet_by_comicart1-d71k8fe_230
+    21300258: kirby_sprite_sheet_by_comicart1-d71k8fe_231
+    21300260: kirby_sprite_sheet_by_comicart1-d71k8fe_232
+    21300262: kirby_sprite_sheet_by_comicart1-d71k8fe_233
+    21300264: kirby_sprite_sheet_by_comicart1-d71k8fe_234
+    21300266: kirby_sprite_sheet_by_comicart1-d71k8fe_235
+    21300268: kirby_sprite_sheet_by_comicart1-d71k8fe_236
+    21300270: kirby_sprite_sheet_by_comicart1-d71k8fe_237
+    21300272: kirby_sprite_sheet_by_comicart1-d71k8fe_238
+    21300274: kirby_sprite_sheet_by_comicart1-d71k8fe_239
+    21300276: kirby_sprite_sheet_by_comicart1-d71k8fe_240
+    21300278: kirby_sprite_sheet_by_comicart1-d71k8fe_241
+    21300280: kirby_sprite_sheet_by_comicart1-d71k8fe_242
+    21300282: kirby_sprite_sheet_by_comicart1-d71k8fe_243
+    21300284: kirby_sprite_sheet_by_comicart1-d71k8fe_244
+    21300286: kirby_sprite_sheet_by_comicart1-d71k8fe_245
+    21300288: kirby_sprite_sheet_by_comicart1-d71k8fe_246
+    21300290: kirby_sprite_sheet_by_comicart1-d71k8fe_247
+    21300292: kirby_sprite_sheet_by_comicart1-d71k8fe_248
+    21300294: kirby_sprite_sheet_by_comicart1-d71k8fe_249
+    21300296: kirby_sprite_sheet_by_comicart1-d71k8fe_250
+    21300298: kirby_sprite_sheet_by_comicart1-d71k8fe_251
+    21300300: kirby_sprite_sheet_by_comicart1-d71k8fe_252
+    21300302: kirby_sprite_sheet_by_comicart1-d71k8fe_253
+    21300304: kirby_sprite_sheet_by_comicart1-d71k8fe_254
+    21300306: kirby_sprite_sheet_by_comicart1-d71k8fe_255
+    21300308: kirby_sprite_sheet_by_comicart1-d71k8fe_256
+    21300310: kirby_sprite_sheet_by_comicart1-d71k8fe_257
+    21300312: kirby_sprite_sheet_by_comicart1-d71k8fe_258
+    21300314: kirby_sprite_sheet_by_comicart1-d71k8fe_259
+    21300316: kirby_sprite_sheet_by_comicart1-d71k8fe_260
+    21300318: kirby_sprite_sheet_by_comicart1-d71k8fe_261
+    21300320: kirby_sprite_sheet_by_comicart1-d71k8fe_262
+    21300322: kirby_sprite_sheet_by_comicart1-d71k8fe_263
+    21300324: kirby_sprite_sheet_by_comicart1-d71k8fe_264
+    21300326: kirby_sprite_sheet_by_comicart1-d71k8fe_265
+    21300328: kirby_sprite_sheet_by_comicart1-d71k8fe_266
+    21300330: kirby_sprite_sheet_by_comicart1-d71k8fe_267
+    21300332: kirby_sprite_sheet_by_comicart1-d71k8fe_268
+    21300334: kirby_sprite_sheet_by_comicart1-d71k8fe_269
+    21300336: kirby_sprite_sheet_by_comicart1-d71k8fe_270
+    21300338: kirby_sprite_sheet_by_comicart1-d71k8fe_271
+    21300340: kirby_sprite_sheet_by_comicart1-d71k8fe_272
+    21300342: kirby_sprite_sheet_by_comicart1-d71k8fe_273
+    21300344: kirby_sprite_sheet_by_comicart1-d71k8fe_274
+    21300346: kirby_sprite_sheet_by_comicart1-d71k8fe_275
+    21300348: kirby_sprite_sheet_by_comicart1-d71k8fe_276
+    21300350: kirby_sprite_sheet_by_comicart1-d71k8fe_277
+    21300352: kirby_sprite_sheet_by_comicart1-d71k8fe_278
+    21300354: kirby_sprite_sheet_by_comicart1-d71k8fe_279
+    21300356: kirby_sprite_sheet_by_comicart1-d71k8fe_280
+    21300358: kirby_sprite_sheet_by_comicart1-d71k8fe_281
+    21300360: kirby_sprite_sheet_by_comicart1-d71k8fe_282
+    21300362: kirby_sprite_sheet_by_comicart1-d71k8fe_283
+    21300364: kirby_sprite_sheet_by_comicart1-d71k8fe_284
+    21300366: kirby_sprite_sheet_by_comicart1-d71k8fe_285
+    21300368: kirby_sprite_sheet_by_comicart1-d71k8fe_286
+    21300370: kirby_sprite_sheet_by_comicart1-d71k8fe_287
+    21300372: kirby_sprite_sheet_by_comicart1-d71k8fe_288
+    21300374: kirby_sprite_sheet_by_comicart1-d71k8fe_289
+    21300376: kirby_sprite_sheet_by_comicart1-d71k8fe_290
+    21300378: kirby_sprite_sheet_by_comicart1-d71k8fe_291
+    21300380: kirby_sprite_sheet_by_comicart1-d71k8fe_292
+    21300382: kirby_sprite_sheet_by_comicart1-d71k8fe_293
+    21300384: kirby_sprite_sheet_by_comicart1-d71k8fe_294
+    21300386: kirby_sprite_sheet_by_comicart1-d71k8fe_295
+    21300388: kirby_sprite_sheet_by_comicart1-d71k8fe_304
+    21300390: kirby_sprite_sheet_by_comicart1-d71k8fe_305
+    21300392: kirby_sprite_sheet_by_comicart1-d71k8fe_306
+    21300394: kirby_sprite_sheet_by_comicart1-d71k8fe_307
+    21300396: kirby_sprite_sheet_by_comicart1-d71k8fe_308
+    21300398: kirby_sprite_sheet_by_comicart1-d71k8fe_309
+    21300400: kirby_sprite_sheet_by_comicart1-d71k8fe_310
+    21300402: kirby_sprite_sheet_by_comicart1-d71k8fe_311
+    21300404: kirby_sprite_sheet_by_comicart1-d71k8fe_312
+    21300406: kirby_sprite_sheet_by_comicart1-d71k8fe_313
+    21300408: kirby_sprite_sheet_by_comicart1-d71k8fe_314
+    21300410: kirby_sprite_sheet_by_comicart1-d71k8fe_315
+    21300412: kirby_sprite_sheet_by_comicart1-d71k8fe_316
+    21300414: kirby_sprite_sheet_by_comicart1-d71k8fe_317
+    21300416: kirby_sprite_sheet_by_comicart1-d71k8fe_318
+    21300418: kirby_sprite_sheet_by_comicart1-d71k8fe_319
+    21300420: kirby_sprite_sheet_by_comicart1-d71k8fe_320
+    21300422: kirby_sprite_sheet_by_comicart1-d71k8fe_321
+    21300424: kirby_sprite_sheet_by_comicart1-d71k8fe_322
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 765
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 765
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 740
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 740
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 739
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_17
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 739
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 739
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_19
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 739
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_20
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 740
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 740
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_22
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 741
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_23
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 741
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_24
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 742
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_25
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 742
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_26
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 742
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 715
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_33
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 715
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_34
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 715
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_35
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 715
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_36
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 715
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_37
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 715
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_38
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 715
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_39
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 715
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_40
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 715
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_41
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 715
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_47
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 687
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_48
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 687
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_49
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 687
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_50
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 687
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_51
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 687
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_52
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 687
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_53
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 687
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_54
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 687
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_55
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 687
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_64
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 661
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 661
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_66
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 661
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_67
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 661
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_68
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 661
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_69
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 661
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_70
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 661
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_71
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 661
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 661
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_88
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 637
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_89
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 637
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_90
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 637
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_91
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 637
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_92
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 637
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_93
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 637
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_94
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 637
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_95
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 637
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_96
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 637
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_97
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 637
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_111
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 605
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_112
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 605
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_113
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 605
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_114
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 605
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_115
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 605
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_129
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 579
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_130
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 579
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_131
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 579
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_132
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 579
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_133
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 579
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_134
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 579
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_135
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 579
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 579
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_137
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 578
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 578
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_145
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 551
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_146
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 551
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_147
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 551
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_148
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 551
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_149
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 551
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_152
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 525
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_153
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 525
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_154
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 525
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_155
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 525
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_156
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 525
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_157
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 525
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_158
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 525
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_159
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 525
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_160
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 525
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_161
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 525
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_162
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 525
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_163
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 525
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_164
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 525
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_165
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 525
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_166
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 525
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_167
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 525
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_168
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 525
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_172
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 499
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_173
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 499
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_174
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 499
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_175
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 499
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_176
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 499
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_177
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 499
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_178
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 499
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_179
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 499
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_180
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 499
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_181
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 499
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_182
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 499
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_183
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 499
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_184
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 499
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_195
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 458
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_196
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 458
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_197
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 459
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_198
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 459
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_199
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 459
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_200
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 459
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_201
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 459
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_202
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 459
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_203
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 458
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_204
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 458
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_205
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 458
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_206
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 458
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_207
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 458
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_208
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 458
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_209
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 457
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_210
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 457
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_211
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 434
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_212
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 434
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_213
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 434
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_214
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 431
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_215
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 434
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_216
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 434
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_217
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 434
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_228
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 405
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_229
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 405
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_230
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 405
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_231
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 405
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_232
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 405
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_233
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 405
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_234
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 405
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_235
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 409
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_236
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 409
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_237
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 409
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_238
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 373
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_239
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 373
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_240
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 373
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_241
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 374
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_242
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 373
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_243
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 373
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_244
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 379
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_245
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 379
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_246
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 341
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_247
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 339
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_248
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 336
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_249
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 348
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_250
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 348
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_251
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 310
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_252
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 310
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_253
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 326
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_254
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 302
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_255
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 306
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_256
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 306
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_257
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 322
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_258
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 267
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_259
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 298
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_260
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 298
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_261
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 298
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_262
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 263
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_263
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 263
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_264
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 263
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_265
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 263
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_266
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 264
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_267
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 269
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_268
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 271
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_269
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 265
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_270
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 265
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_271
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 232
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_272
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 232
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_273
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 232
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_274
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 232
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_275
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 201
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_276
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 201
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_277
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 201
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_278
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 201
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_279
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 171
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_280
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 172
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_281
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 171
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_282
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 171
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_283
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 171
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_284
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 171
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_285
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 171
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_286
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 171
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_287
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 172
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_288
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 132
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_289
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 131
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_290
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 135
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_291
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 135
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_292
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 135
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_293
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 103
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_294
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 103
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_295
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 102
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_304
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 52
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_305
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 52
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_306
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 51
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_307
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 51
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_308
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 51
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_309
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 51
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_310
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 50
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_311
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 50
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_312
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 8
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_313
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_314
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 9
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_315
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 10
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_316
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 9
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_317
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 10
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_318
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 9
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_319
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 10
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_320
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 12
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_321
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 10
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: kirby_sprite_sheet_by_comicart1-d71k8fe_322
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 11
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
