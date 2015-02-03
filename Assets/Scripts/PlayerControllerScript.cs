@@ -3,8 +3,6 @@ using System.Collections;
 
 public class PlayerControllerScript : MonoBehaviour
 {
-//public GameObject refBullet;   //dont think we need anymore
-//public GameObject refBullet2; //dont think we need anymore
 	public Direction direction = 0; //0 is down, 1 is up, 2 is left, 3 is right
 	public Animator animator;
 	public float walkVel;
@@ -14,6 +12,8 @@ public class PlayerControllerScript : MonoBehaviour
 	private bool isGrounded;
 	public Material Default;
 	public Material Hit;
+	public GameObject pRangePrefab; //Projectile prefab
+	private GameObject instanceOfRangePrefab; //used to create an instance of the prefab in order to send message to the script. 
 // Use this for initialization
 	void Start ()
 	{
@@ -27,7 +27,6 @@ public class PlayerControllerScript : MonoBehaviour
 		SetDirection ();
 		if (Time.timeScale!=0) 
 		{
-			PlayerInfo.changeMana (1);
 			CheckInputs ();
 			SpriteAnimation ();
 		}
@@ -56,7 +55,7 @@ public class PlayerControllerScript : MonoBehaviour
 //Sets the direction for the player
 	void SetDirection ()
 	{
-			if (rigidbody2D.velocity.x <= 0) {
+			if (rigidbody2D.velocity.x < 0) {
 					direction = Direction.left;
 			} else if (rigidbody2D.velocity.x > 0) {
 					direction = Direction.right;
@@ -101,7 +100,19 @@ public class PlayerControllerScript : MonoBehaviour
 				Debug.Log("Jump Count: " + jumpCount);
 				}
 			}
+			if (Input.GetButtonDown("Fire1")) {
+				RangeInput();
+			}
 		}
+	}
+
+	void RangeInput() {
+		if (pRangePrefab != null) { //checks if entity has a range projectile
+			instanceOfRangePrefab = (GameObject)GameObject.Instantiate (pRangePrefab, new Vector3 (10000, 10000), Quaternion.identity);
+			Debug.Log("poop");
+		}
+		instanceOfRangePrefab.SendMessage ("setDirection", direction); //too lazy to make struct, send player direction to prefab
+		instanceOfRangePrefab.SendMessage ("execute", gameObject); //sends gameobject of entity so projectile knows where to spawn from
 	}
 
 	void stopAttackAnim ()
