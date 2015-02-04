@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerControllerScript : MonoBehaviour
 {
-	public Direction direction = 0; //0 is down, 1 is up, 2 is left, 3 is right
+	public Direction direction; //0 is down, 1 is up, 2 is left, 3 is right
 	public Animator animator;
 	public float walkVel;
 	public float jumpVel;
@@ -12,6 +12,7 @@ public class PlayerControllerScript : MonoBehaviour
 	private bool isGrounded;
 	public Material Default;
 	public Material Hit;
+
 	public GameObject pRangePrefab; //Projectile prefab
 	private GameObject instanceOfRangePrefab; //used to create an instance of the prefab in order to send message to the script. 
 // Use this for initialization
@@ -97,7 +98,7 @@ public class PlayerControllerScript : MonoBehaviour
 				if (jumpCount < 1) {
 				rigidbody2D.velocity = new Vector2(gameObject.rigidbody2D.velocity.x, jumpVel);
 				jumpCount++;
-				Debug.Log("Jump Count: " + jumpCount);
+				//Debug.Log("Jump Count: " + jumpCount);
 				}
 			}
 			if (Input.GetButtonDown("Fire1")) {
