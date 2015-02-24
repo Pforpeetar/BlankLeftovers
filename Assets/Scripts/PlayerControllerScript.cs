@@ -110,7 +110,7 @@ public class PlayerControllerScript : MonoBehaviour
 	void RangeInput() {
 		if (pRangePrefab != null) { //checks if entity has a range projectile
 			instanceOfRangePrefab = (GameObject)GameObject.Instantiate (pRangePrefab, new Vector3 (10000, 10000), Quaternion.identity);
-			Debug.Log("poop");
+//			Debug.Log("poop");
 		}
 		instanceOfRangePrefab.SendMessage ("setDirection", direction); //too lazy to make struct, send player direction to prefab
 		instanceOfRangePrefab.SendMessage ("execute", gameObject); //sends gameobject of entity so projectile knows where to spawn from
