@@ -10,6 +10,6 @@ public class FloorMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		rigidbody2D.velocity = new Vector3 (target.rigidbody2D.velocity.x, rigidbody2D.velocity.y);
+		transform.position = new Vector2 (target.transform.position.x, -7.5f);
 	}
 }

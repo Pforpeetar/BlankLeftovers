@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: 22c67ed6926461246ae4e6eebcaf712d
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sampleconceptblankleftoversnowhite_0
+    21300002: sampleconceptblankleftoversnowhite_6
+    21300004: sampleconceptblankleftoversnowhite_9
+    21300006: sampleconceptblankleftoversnowhite_13
+    21300008: sampleconceptblankleftoversnowhite_14
+    21300010: sampleconceptblankleftoversnowhite_15
+    21300012: sampleconceptblankleftoversnowhite_16
+    21300014: sampleconceptblankleftoversnowhite_17
+    21300016: sampleconceptblankleftoversnowhite_18
+    21300018: sampleconceptblankleftoversnowhite_19
+    21300020: sampleconceptblankleftoversnowhite_20
+    21300022: sampleconceptblankleftoversnowhite_21
+    21300024: sampleconceptblankleftoversnowhite_25
+    21300026: sampleconceptblankleftoversnowhite_29
+    21300028: sampleconceptblankleftoversnowhite_20
+    21300030: sampleconceptblankleftoversnowhite_21
+    21300032: sampleconceptblankleftoversnowhite_22
+    21300034: sampleconceptblankleftoversnowhite_23
+    21300036: sampleconceptblankleftoversnowhite_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sampleconceptblankleftoversnowhite_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1758
+        width: 347
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_6
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1825
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1156
+        width: 397
+        height: 540
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_13
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1220
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_14
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1216
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_15
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1232
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_16
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1316
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 1600
+        height: 471
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_18
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 606
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_19
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 479
+        width: 253
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_20
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 561
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_21
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 381
+        width: 254
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 178
+        width: 791
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_29
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 0
+        width: 414
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_20
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 1755
+        width: 370
+        height: 618
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_21
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 1740
+        width: 342
+        height: 632
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_22
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1731
+        width: 394
+        height: 643
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_23
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1201
+        width: 444
+        height: 468
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sampleconceptblankleftoversnowhite_24
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 1175
+        width: 362
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

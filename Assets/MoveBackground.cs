@@ -16,12 +16,12 @@ public class MoveBackground : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D collInfo) {
 		//Vector3 center = camera.renderer.bounds.center;
-		float height = camera.orthographicSize *2f;
+		float height = camera.orthographicSize * 2f;
 		float width = height / (float)Screen.height * (float)Screen.width;
 		if (collInfo.CompareTag("Camera")) {
 			Debug.Log("Colliding");
 			//transform.position = camera.ScreenToWorldPoint(screenPosition);
-			transform.position = new Vector3(transform.position.x + width * 2, transform.position.y, transform.position.z);
+			transform.position = new Vector3(transform.position.x + width * 4, transform.position.y, transform.position.z);
 		}
 	}
 }
