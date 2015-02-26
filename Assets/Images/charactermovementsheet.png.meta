@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: 2d59977523ad8ff4eb677e8c3e60c6d5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: charactermovementsheet_0
+    21300002: charactermovementsheet_1
+    21300004: charactermovementsheet_2
+    21300006: charactermovementsheet_3
+    21300008: charactermovementsheet_4
+    21300010: charactermovementsheet_5
+    21300012: charactermovementsheet_6
+    21300014: charactermovementsheet_7
+    21300016: charactermovementsheet_8
+    21300018: charactermovementsheet_9
+    21300020: charactermovementsheet_10
+    21300022: charactermovementsheet_11
+    21300024: charactermovementsheet_12
+    21300026: charactermovementsheet_13
+    21300028: charactermovementsheet_14
+    21300030: charactermovementsheet_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: charactermovementsheet_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 2088
+        width: 376
+        height: 462
+      alignment: 9
+      pivot: {x: .549306571, y: .273338139}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_1
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 2080
+        width: 338
+        height: 478
+      alignment: 9
+      pivot: {x: .655445695, y: .302148014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_2
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 2074
+        width: 320
+        height: 484
+      alignment: 9
+      pivot: {x: .60247153, y: .294362962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_3
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 2082
+        width: 327
+        height: 493
+      alignment: 9
+      pivot: {x: .597103775, y: .315923423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1514
+        width: 395
+        height: 462
+      alignment: 9
+      pivot: {x: .543541372, y: .295816272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_5
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1519
+        width: 381
+        height: 477
+      alignment: 9
+      pivot: {x: .523317039, y: .313375235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_6
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1501
+        width: 388
+        height: 470
+      alignment: 9
+      pivot: {x: .558020234, y: .303471744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_7
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1480
+        width: 330
+        height: 508
+      alignment: 9
+      pivot: {x: .613368928, y: .324313432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 876
+        width: 269
+        height: 547
+      alignment: 9
+      pivot: {x: .576212168, y: .320840061}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 874
+        width: 281
+        height: 529
+      alignment: 9
+      pivot: {x: .548638523, y: .308454156}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_10
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 891
+        width: 285
+        height: 496
+      alignment: 9
+      pivot: {x: .558490932, y: .266822308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_11
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 873
+        width: 264
+        height: 517
+      alignment: 9
+      pivot: {x: .601036787, y: .28015089}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_12
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 141
+        width: 377
+        height: 613
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 227
+        width: 299
+        height: 527
+      alignment: 9
+      pivot: {x: .521177173, y: .280039251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_14
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 204
+        width: 289
+        height: 537
+      alignment: 9
+      pivot: {x: .544667184, y: .329878867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: charactermovementsheet_15
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 204
+        width: 269
+        height: 550
+      alignment: 9
+      pivot: {x: .57386297, y: .301742345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

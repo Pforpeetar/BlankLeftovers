@@ -19,7 +19,7 @@ public class MoveBackground : MonoBehaviour {
 		float height = camera.orthographicSize * 2f;
 		float width = height / (float)Screen.height * (float)Screen.width;
 		if (collInfo.CompareTag("Camera")) {
-			Debug.Log("Colliding");
+//			Debug.Log("Colliding");
 			//transform.position = camera.ScreenToWorldPoint(screenPosition);
 			transform.position = new Vector3(transform.position.x + width * 4, transform.position.y, transform.position.z);
 		}
