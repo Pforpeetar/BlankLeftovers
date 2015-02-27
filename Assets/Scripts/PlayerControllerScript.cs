@@ -15,6 +15,7 @@ public class PlayerControllerScript : MonoBehaviour
 	public Camera mainCamera;
 	public float maxMana = 100;
 	private float mana = 100;
+	public static bool overlap = false;
 
 	public GameObject pRangePrefab; //Projectile prefab
 
@@ -25,10 +26,14 @@ public class PlayerControllerScript : MonoBehaviour
 		animator = (Animator)GetComponent ("Animator");
 	}
 
+	void setOverlap(bool boo) {
+		overlap = boo;
+	}
+
 // Update is called once per frame
-	void Update ()
+	void FixedUpdate ()
 	{
-		mana += Time.fixedDeltaTime * 5f;
+		mana += Time.deltaTime * 5f;
 		if (mana > maxMana) {
 			mana = maxMana;
 		}
@@ -113,19 +118,20 @@ public class PlayerControllerScript : MonoBehaviour
 				jumpCount++;
 				}
 			}
-			if (Input.GetButton("Fire1") && mana > 0) {
+			if (Input.GetButton("Fire1") && mana >= 2) {
 				RangeInput();
 			}
 		}
 	}
 
 	void RangeInput() {
-		if (pRangePrefab != null) { //checks if entity has a range projectile
-			mana -= 1;
+		if (pRangePrefab != null && !overlap) { //checks if entity has a range projectile
+			mana -= 2;
 			Vector3 pos = Input.mousePosition;
 			pos.z = 2;
 			pos = mainCamera.ScreenToWorldPoint(pos);
 			GameObject.Instantiate (pRangePrefab, pos, Quaternion.identity);
 		}
+		overlap = false;
 	}
 }

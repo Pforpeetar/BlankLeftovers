@@ -29,6 +29,7 @@ public class Enemy : MonoBehaviour {
 		if (collInfo.gameObject.CompareTag ("Player")) {
 			Destroy(collInfo.gameObject);
 		}
+
 	}
 
 	public static GameObject cloneObject (GameObject bulletToClone, Vector3 placetoCreate, Vector3 velocity, Quaternion orientation)
