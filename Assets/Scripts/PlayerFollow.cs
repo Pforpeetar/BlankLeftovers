@@ -14,6 +14,6 @@ public class PlayerFollow : MonoBehaviour {
 	void Update () {
 		xPos = target.transform.position.x;
 		yPos = target.transform.position.y;
-		transform.position = new Vector3 (xPos, yPos, transform.position.z);
+		transform.position = new Vector3 (xPos + 5f, 10f, transform.position.z);
 	}
 }
