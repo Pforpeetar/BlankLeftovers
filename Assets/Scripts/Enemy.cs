@@ -15,13 +15,14 @@ public class Enemy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		rigidbody2D.velocity = new Vector2(-10, rigidbody2D.velocity.y);
-
-		if (currTime <= Time.time) {
-			currTime = Time.time + cooldown;
-			dir = new Vector2(-20f, Player.transform.position.y - transform.position.y);
-			GameObject projectileClones = cloneObject(projectile, transform.position, dir, Quaternion.identity);
-			//GameObject projectileClones = (GameObject)GameObject.Instantiate(projectile, transform.position, Quaternion.identity);
+		if (Player != null) {
+			if (currTime <= Time.time) {
+				currTime = Time.time + cooldown;
+				dir = new Vector2(-20f, Player.transform.position.y - transform.position.y);
+				GameObject projectileClones = cloneObject(projectile, transform.position, dir, Quaternion.identity);
+				//GameObject projectileClones = (GameObject)GameObject.Instantiate(projectile, transform.position, Quaternion.identity);
 			//projectileClones.rigidbody2D.velocity = new Vector2(-10f, 0);
+			}
 		}
 	}
 

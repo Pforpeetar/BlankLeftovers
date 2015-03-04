@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PlayerControllerScript : MonoBehaviour
 {
+	public LayerMask mask;
+	public LayerMask mask2;
 	public Direction direction; //0 is down, 1 is up, 2 is left, 3 is right
 	public Animator animator;
 	public float walkVel2;
@@ -33,7 +35,7 @@ public class PlayerControllerScript : MonoBehaviour
 // Update is called once per frame
 	void FixedUpdate ()
 	{
-		mana += Time.deltaTime * 5f;
+		mana += Time.deltaTime * 20f;
 		if (mana > maxMana) {
 			mana = maxMana;
 		}
@@ -49,10 +51,11 @@ public class PlayerControllerScript : MonoBehaviour
 		if (hittime + 0.1f < Time.time) {
 			GetComponent<SpriteRenderer>().material = Default;
 		}
-		RaycastHit2D hit = Physics2D.Raycast(gameObject.transform.position,new Vector2(0,-1),5f,9);
+		RaycastHit2D hit = Physics2D.Raycast(gameObject.transform.position,new Vector2(0,-1),5f,mask);
+		RaycastHit2D hit2 = Physics2D.Raycast(gameObject.transform.position,new Vector2(0,-1),5f,mask2);
 //		Debug.Log (hit.collider);
 		//Debug.DrawRay(gameObject.transform.position, new Vector2(0,-1));
-		if (hit.collider) {
+		if (hit.collider || hit2.collider) {
 			animator.SetBool("Jump", false);
 			isGrounded = true;
 			jumpCount = 0;
@@ -63,7 +66,8 @@ public class PlayerControllerScript : MonoBehaviour
 	}
 
 	void OnGUI() {
-		GUI.Label (new Rect (50, 25, 100, 100), "Mana: " + mana);
+		string poop = mana.ToString("#");
+		GUI.Label (new Rect (50, 25, 100, 100), "Mana: " + poop);
 	}
 
 //Checks and sets the animation state for the player
