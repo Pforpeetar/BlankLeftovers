@@ -7,13 +7,10 @@ public class PlayerControllerScript : MonoBehaviour
 	public LayerMask mask2;
 	public Direction direction; //0 is down, 1 is up, 2 is left, 3 is right
 	public Animator animator;
-	public float walkVel2;
+	public float walkVel = 20;
 	public float jumpVel;
 	private int jumpCount = 0;
-	private float hittime;
 	private bool isGrounded;
-	public Material Default;
-	public Material Hit;
 	public Camera mainCamera;
 	public float maxMana = 100;
 	private float mana = 100;
@@ -36,6 +33,7 @@ public class PlayerControllerScript : MonoBehaviour
 	void FixedUpdate ()
 	{
 		mana += Time.deltaTime * 20f;
+		walkVel += Time.deltaTime / 3;
 		if (mana > maxMana) {
 			mana = maxMana;
 		}
@@ -47,9 +45,6 @@ public class PlayerControllerScript : MonoBehaviour
 		{
 			CheckInputs ();
 			//SpriteAnimation ();
-		}
-		if (hittime + 0.1f < Time.time) {
-			GetComponent<SpriteRenderer>().material = Default;
 		}
 		RaycastHit2D hit = Physics2D.Raycast(gameObject.transform.position,new Vector2(0,-1),5f,mask);
 		RaycastHit2D hit2 = Physics2D.Raycast(gameObject.transform.position,new Vector2(0,-1),5f,mask2);
@@ -67,7 +62,9 @@ public class PlayerControllerScript : MonoBehaviour
 
 	void OnGUI() {
 		string poop = mana.ToString("#");
+		string poop2 = walkVel.ToString("#");
 		GUI.Label (new Rect (50, 25, 100, 100), "Mana: " + poop);
+		GUI.Label (new Rect (50, 40, 100, 100), "WalkSpeed: " + poop2);
 	}
 
 //Checks and sets the animation state for the player
@@ -115,7 +112,7 @@ public class PlayerControllerScript : MonoBehaviour
 		//Consider modifying the same vector everytime instead of creating a new one, performance win?
 		if (PlayerInfo.GetState().Equals(PState.normal)) {
 			//rigidbody2D.velocity = new Vector2 (Input.GetAxis ("Horizontal") * walkVel, gameObject.rigidbody2D.velocity.y);
-			rigidbody2D.velocity = new Vector2 (walkVel2, gameObject.rigidbody2D.velocity.y);
+			rigidbody2D.velocity = new Vector2 (walkVel, gameObject.rigidbody2D.velocity.y);
 			if (Input.GetButtonDown ("Jump")) {
 				if (jumpCount < 1) {
 				rigidbody2D.velocity = new Vector2(gameObject.rigidbody2D.velocity.x, jumpVel);

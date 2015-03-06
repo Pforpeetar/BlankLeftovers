@@ -5,10 +5,6 @@ public class PlayerFollow : MonoBehaviour {
 	public GameObject target;
 	private float xPos;
 	private float yPos;
-	// Use this for initialization
-	void Start () {
-	
-	}
 	
 	// Update is called once per frame
 	void Update () {

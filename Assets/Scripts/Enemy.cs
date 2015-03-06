@@ -2,16 +2,16 @@
 using System.Collections;
 
 public class Enemy : MonoBehaviour {
-	public GameObject Player;
+	private GameObject Player;
 	public GameObject projectile;
 	Vector2 dir;
 	private float currTime;
 	public float cooldown = 5;
-	// Use this for initialization
-	void Start () {
-		PlayerControllerScript p;
+
+	void Start() {
+		Player = GameObject.FindGameObjectWithTag ("Player");
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		rigidbody2D.velocity = new Vector2(-10, rigidbody2D.velocity.y);
@@ -19,9 +19,7 @@ public class Enemy : MonoBehaviour {
 			if (currTime <= Time.time) {
 				currTime = Time.time + cooldown;
 				dir = new Vector2(-20f, Player.transform.position.y - transform.position.y);
-				GameObject projectileClones = cloneObject(projectile, transform.position, dir, Quaternion.identity);
-				//GameObject projectileClones = (GameObject)GameObject.Instantiate(projectile, transform.position, Quaternion.identity);
-			//projectileClones.rigidbody2D.velocity = new Vector2(-10f, 0);
+				cloneObject(projectile, transform.position, dir, Quaternion.identity);
 			}
 		}
 	}
@@ -30,7 +28,6 @@ public class Enemy : MonoBehaviour {
 		if (collInfo.gameObject.CompareTag ("Player")) {
 			Destroy(collInfo.gameObject);
 		}
-
 	}
 
 	public static GameObject cloneObject (GameObject bulletToClone, Vector3 placetoCreate, Vector3 velocity, Quaternion orientation)

@@ -8,11 +8,6 @@ public class Projectile : MonoBehaviour {
 	void Start () {
 		Destroy(gameObject, projectileDuration);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-
-	}
 
 	void OnCollisionEnter2D(Collision2D collInfo) {
 		if (collInfo.gameObject.CompareTag (Target)) {

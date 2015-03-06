@@ -2,10 +2,39 @@
 using System.Collections;
 
 public class BossController : MonoBehaviour {
-	public GameObject target;
+	public float speed;
+	private GameObject player;                      // Reference to the player.
+	private Vector3 playerTransform;                      // Reference to the player's transform.
 	
-	// Update is called once per frame
-	void Update () {
-		rigidbody2D.velocity = new Vector2 (25f, 0);
+	void Start() {
+		player = GameObject.FindGameObjectWithTag ("Player");
+	}
+	
+	void FixedUpdate () {
+		speed += Time.deltaTime/2;
+		if (player != null) {
+			playerTransform = player.transform.position;
+			Chasing ();
+		} else {
+			rigidbody2D.velocity = new Vector2(speed, 0);
+		}
+	}
+
+	void OnCollisionEnter2D(Collision2D collInfo) {
+		if (collInfo.gameObject.CompareTag ("Player")) {
+			Destroy(collInfo.gameObject);
+		}
+	}
+
+	void Chasing ()
+	{
+		Vector2 Playerdirection;
+		float Xdif;
+		float Ydif;
+		Xdif = playerTransform.x - transform.position.x;
+		Ydif = playerTransform.y - transform.position.y;
+		
+		Playerdirection = new Vector2 (Xdif, Ydif);
+		rigidbody2D.velocity = (Playerdirection.normalized * speed);
 	}
 }
