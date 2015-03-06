@@ -136,3 +136,8 @@ public class PlayerControllerScript : MonoBehaviour
 		overlap = false;
 	}
 }
+//move everyframe used update method
+//if you want something to move you must add rigidbody2D
+//riigidbody2d.velocity = new Vector (-10f, 0f);
+// must pass a vector object when using rigidbody; always uses float
+//no constructor, initiate variables in start()
