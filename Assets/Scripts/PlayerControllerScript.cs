@@ -3,18 +3,18 @@ using System.Collections;
 
 public class PlayerControllerScript : MonoBehaviour
 {
-	public LayerMask mask;
-	public LayerMask mask2;
+	public LayerMask mask; //ray cast
+	public LayerMask mask2; //ray cast
 	public Direction direction; //0 is down, 1 is up, 2 is left, 3 is right
-	public Animator animator;
-	public float walkVel = 20;
-	public float jumpVel;
-	private int jumpCount = 0;
-	private bool isGrounded;
-	public Camera mainCamera;
-	public float maxMana = 100;
-	private float mana = 100;
-	public static bool overlap = false;
+	public Animator animator; //Animation
+	public float walkVel = 20; //velocity of the characters start
+	public float jumpVel; //characters jump velocity
+	private int jumpCount = 0; 
+	private bool isGrounded; //character is on the ground
+	public Camera mainCamera; //get main camera
+	public float maxMana = 100; //fixed  max mana
+	private float mana = 100; //fixed current mana
+	public static bool overlap = false; //
 
 	public GameObject pRangePrefab; //Projectile prefab
 

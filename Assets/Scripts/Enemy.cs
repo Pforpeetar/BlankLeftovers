@@ -24,6 +24,7 @@ public class Enemy : MonoBehaviour {
 		}
 	}
 
+	//when the enemy collides with the player, kill player
 	void OnCollisionEnter2D(Collision2D collInfo) {
 		if (collInfo.gameObject.CompareTag ("Player")) {
 			Destroy(collInfo.gameObject);
