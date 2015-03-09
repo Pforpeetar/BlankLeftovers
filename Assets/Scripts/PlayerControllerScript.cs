@@ -9,8 +9,8 @@ public class PlayerControllerScript : MonoBehaviour
 	public Animator animator; //Animation
 	public float walkVel = 20; //velocity of the characters start
 	public float jumpVel; //characters jump velocity
-	private int jumpCount = 0; 
-	private bool isGrounded; //character is on the ground
+	public int jumpCount = 0; 
+	private bool isGrounded = true; //character is on the ground
 	public Camera mainCamera; //get main camera
 	public float maxMana = 100; //fixed  max mana
 	private float mana = 100; //fixed current mana
@@ -30,7 +30,7 @@ public class PlayerControllerScript : MonoBehaviour
 	}
 
 // Update is called once per frame
-	void FixedUpdate ()
+	void Update ()
 	{
 		mana += Time.deltaTime * 20f;
 		walkVel += Time.deltaTime / 3;
@@ -46,8 +46,8 @@ public class PlayerControllerScript : MonoBehaviour
 			CheckInputs ();
 			//SpriteAnimation ();
 		}
-		RaycastHit2D hit = Physics2D.Raycast(gameObject.transform.position,new Vector2(0,-1),5f,mask);
-		RaycastHit2D hit2 = Physics2D.Raycast(gameObject.transform.position,new Vector2(0,-1),5f,mask2);
+		RaycastHit2D hit = Physics2D.Raycast(gameObject.transform.position,new Vector2(0,-1),2f,mask);
+		RaycastHit2D hit2 = Physics2D.Raycast(gameObject.transform.position,new Vector2(0,-1),2f,mask2);
 //		Debug.Log (hit.collider);
 		//Debug.DrawRay(gameObject.transform.position, new Vector2(0,-1));
 		if (hit.collider || hit2.collider) {
