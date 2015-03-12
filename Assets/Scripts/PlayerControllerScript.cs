@@ -38,7 +38,7 @@ public class PlayerControllerScript : MonoBehaviour
 	{
 		checkTimeSlow(); //check for Time Slow Events
 
-		mana += Time.deltaTime * 20f;
+		mana += Time.deltaTime * 40f;
 		walkVel += Time.deltaTime / 3;
 		if (mana > maxMana) {
 			mana = maxMana;
@@ -133,7 +133,7 @@ public class PlayerControllerScript : MonoBehaviour
 
 	void RangeInput() {
 		if (pRangePrefab != null && !overlap) { //checks if entity has a range projectile
-			mana -= 2;
+			mana -= 1;
 			Vector3 pos = Input.mousePosition;
 			pos.z = 2;
 			pos = mainCamera.ScreenToWorldPoint(pos);

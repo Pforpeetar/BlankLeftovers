@@ -7,7 +7,7 @@ public class FloorMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (target != null) {
-			transform.position = new Vector2 (target.transform.position.x, -7.5f);
+			transform.position = new Vector2 (target.transform.position.x, transform.position.y);
 		}
 	}
 }
