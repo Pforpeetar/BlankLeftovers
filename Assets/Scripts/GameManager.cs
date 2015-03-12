@@ -8,7 +8,9 @@ public class GameManager : MonoBehaviour {
 	public List<GameObject> events = new List<GameObject>(); //event array
 	private float Score; // score count
 	private bool courRunning = false; //to check to see if the courantine method is running
+
 	// so that it doesn't create a extra amount of objects (any logs, clowns, etc.)
+
 
 	void Start() {
 		Player = GameObject.FindGameObjectWithTag ("Player");
@@ -18,7 +20,7 @@ public class GameManager : MonoBehaviour {
 		//StartCoroutine (generateEvent());
 	}
 	// Update is called once per frame
-	void Update () {
+	void Update () {	
 		if (Input.GetKey(KeyCode.R)) {
 			Application.LoadLevel(0);
 		}

@@ -14,6 +14,9 @@ public class PlayerControllerScript : MonoBehaviour
 	public Camera mainCamera; //get main camera
 	public float maxMana = 100; //fixed  max mana
 	private float mana = 100; //fixed current mana
+	public int timeAffect = 0; //value for level of time slow effects
+	public int timeSlowDuration = 0; //value for how long of a time slow
+	public float eventStartSlowTime = 0; //value of start time of slow time event
 	public static bool overlap = false; //
 
 	public GameObject pRangePrefab; //Projectile prefab
@@ -32,6 +35,8 @@ public class PlayerControllerScript : MonoBehaviour
 // Update is called once per frame
 	void Update ()
 	{
+		checkTimeSlow(); //check for Time Slow Events
+
 		mana += Time.deltaTime * 20f;
 		walkVel += Time.deltaTime / 3;
 		if (mana > maxMana) {
@@ -134,6 +139,28 @@ public class PlayerControllerScript : MonoBehaviour
 			GameObject.Instantiate (pRangePrefab, pos, Quaternion.identity);
 		}
 		overlap = false;
+	}
+
+	//checks Time slow and resets timeScale back to normal depending on slow event
+	void checkTimeSlow() {
+		//check TimeScale for resetting from slowdown effects
+		if (timeAffect != 0) {
+			if (timeAffect == -1){
+				if (Time.time > (eventStartSlowTime + timeSlowDuration)) //resets time scale after Slow duration
+				{
+					Time.timeScale = 1.0f;
+					eventStartSlowTime = 0;
+					timeAffect = 0;
+					timeSlowDuration = 0;
+				}
+			}
+			else{
+				eventStartSlowTime= Time.time;
+				timeAffect = -1; //refresh time change from Pickups
+			}
+
+
+		}
 	}
 }
 //move everyframe used update method
