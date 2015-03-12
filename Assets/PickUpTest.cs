@@ -21,7 +21,7 @@ public class PickUpTest : MonoBehaviour {
 	//Destroy all Enemy Projectiles
 	void DestroyEnemies()
 	{
-		GameObject[] enemyProjectiles = GameObject.FindGameObjectsWithTag("Enemy");
+		GameObject[] enemyProjectiles = GameObject.FindGameObjectsWithTag("EnemyProjectile");
 
 		for (int i = 0; i< enemyProjectiles.Length; i++) {
 			Destroy (enemyProjectiles[i]);

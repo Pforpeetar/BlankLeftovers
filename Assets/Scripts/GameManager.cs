@@ -48,20 +48,25 @@ public class GameManager : MonoBehaviour {
 
 	public static void updateScores() {
 		Score newHighScore = new Score(0, "Poop", (int) score);
-		for (int i = 0; i < HighScores.ListOfHighScores.Length; i++) {
+		//Debug.Log (newHighScore);
+		for (int i = 12; i >= 0; i--) {
 			if (newHighScore.score > HighScores.ListOfHighScores[i].score) {
-				if (i < 12) {
+				if (i > 0) {
+					Debug.Log("poopoo");
 					newHighScore.rank = HighScores.ListOfHighScores[i].rank;
 					HighScores.ListOfHighScores[i].rank--;
 					Score temp = HighScores.ListOfHighScores[i];
 					HighScores.ListOfHighScores[i] = newHighScore;
-					HighScores.ListOfHighScores[i-1] = temp;
-				} else if (i == 12) {
+					HighScores.ListOfHighScores[i+1] = temp;
+					Debug.Log (newHighScore);
+					Debug.Log(HighScores.ListOfHighScores[i]);
+				} else if (i == 0) {
 					newHighScore.rank = HighScores.ListOfHighScores[i].rank;
 					HighScores.ListOfHighScores[i] = newHighScore;
 				}
 			}
 		}
+
 		HighScores.SaveHighScoresToFile ();
 	}
 }

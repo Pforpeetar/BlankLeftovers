@@ -162,6 +162,14 @@ public class PlayerControllerScript : MonoBehaviour
 
 		}
 	}
+
+	void OnCollisionEnter2D(Collision2D collInfo) {
+		if (collInfo.gameObject.CompareTag ("Enemy") || collInfo.gameObject.CompareTag("EnemyProjectile")) {
+			Destroy(gameObject);
+			//Debug.Log ("poop");
+			GameManager.updateScores();
+		}
+	}
 }
 //move everyframe used update method
 //if you want something to move you must add rigidbody2D
