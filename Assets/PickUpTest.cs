@@ -12,17 +12,17 @@ public class PickUpTest : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D collInfo) {
 		if (collInfo.gameObject.CompareTag ("Player")) {
-			DestroyProjectiles();
+			DestroyEnemies();
 			Destroy (this.gameObject);
 		}
 	}
 
-	void DestroyProjectiles()
+	void DestroyEnemies()
 	{
-		GameObject[] projectiles = GameObject.FindGameObjectsWithTag("Projectile");
+		GameObject[] enemyProjectiles = GameObject.FindGameObjectsWithTag("Enemy");
 
-		for (int i = 0; i< projectiles.Length; i++) {
-			Destroy (projectiles[i]);
+		for (int i = 0; i< enemyProjectiles.Length; i++) {
+			Destroy (enemyProjectiles[i]);
 		}
 	}
 
