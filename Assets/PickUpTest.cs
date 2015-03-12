@@ -10,6 +10,7 @@ public class PickUpTest : MonoBehaviour {
 		//rigidbody2D.velocity = new Vector2 (-10f, 0f);
 	}
 
+	//Player collision with Pickup Item will destroy all enemy projectiles
 	void OnCollisionEnter2D(Collision2D collInfo) {
 		if (collInfo.gameObject.CompareTag ("Player")) {
 			DestroyEnemies();
@@ -17,6 +18,7 @@ public class PickUpTest : MonoBehaviour {
 		}
 	}
 
+	//Destroy all Enemy Projectiles
 	void DestroyEnemies()
 	{
 		GameObject[] enemyProjectiles = GameObject.FindGameObjectsWithTag("Enemy");
