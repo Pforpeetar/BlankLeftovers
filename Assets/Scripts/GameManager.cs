@@ -10,13 +10,17 @@ public class GameManager : MonoBehaviour {
 	private bool courRunning = false; //to check to see if the courantine method is running
 	// so that it doesn't create a extra amount of objects (any logs, clowns, etc.)
 	public static string stringToEdit = "Enter name";
-	public static bool userDead = false;
+	public static bool userDead;
+	public static bool savedScore;
 
 	void Start() {
 		Player = GameObject.FindGameObjectWithTag ("Player");
 		if (Player != null) {
 			initialPlayerYPos = Player.transform.position.y;
 		}
+		userDead = false;
+		savedScore = false;
+		score = 0;
 		//StartCoroutine (generateEvent());
 	}
 	// Update is called once per frame
@@ -51,11 +55,17 @@ public class GameManager : MonoBehaviour {
 			for (int i = 0; i <= 12; i++) {
 				GUI.Box(new Rect(Screen.width/3, Screen.height/15 + Screen.height/15 + Screen.height/15*i, Screen.width/4, Screen.height/20), HighScores.ListOfHighScores[i].name + " HighScore " + (i+1) + ": " + HighScores.ListOfHighScores[i].score);
 			}
-			//GUI.Box(new Rect(Screen.width/2, Screen.height/2, 200, 20), "HighScore1: " + HighScores.ListOfHighScores[0].score);
-			stringToEdit = GUI.TextField(new Rect(Screen.width/3, Screen.height/20, Screen.width/4, Screen.height/20), stringToEdit, 25);
+			if (!savedScore) {
+				stringToEdit = GUI.TextField(new Rect(Screen.width/3, Screen.height/20, Screen.width/4, Screen.height/20), stringToEdit, 25);
 
-			if (GUI.Button(new Rect(Screen.width/3, 0, Screen.width/4, Screen.height/20), "Click to save")){
-				updateScores();
+				if (GUI.Button(new Rect(Screen.width/3, 0, Screen.width/4, Screen.height/20), "Click to save")){
+					updateScores();
+					savedScore = true;
+				}
+			} else {
+				if (GUI.Button(new Rect(Screen.width/3, 0, Screen.width/4, Screen.height/20), "Click to resume.")) {
+					Application.LoadLevel(0);
+				}
 			}
 		}
 	}
@@ -65,7 +75,8 @@ public class GameManager : MonoBehaviour {
 		//Debug.Log (newHighScore);
 		bool duplicate = false;
 		for (int i = 0; i < 13; i++) {
-			if (newHighScore.name.Equals(HighScores.ListOfHighScores[i].name)) {
+			Score highScore = HighScores.ListOfHighScores[i];
+			if (newHighScore.name.Equals(highScore.name) && newHighScore.score.Equals(highScore.score)) {
 				duplicate = true;
 			}
 		}

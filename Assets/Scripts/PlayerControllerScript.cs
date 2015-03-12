@@ -10,9 +10,10 @@ public class PlayerControllerScript : MonoBehaviour
 	public float walkVel = 20; //velocity of the characters start
 	public float jumpVel; //characters jump velocity
 	public int jumpCount = 0; 
-	private bool isGrounded = true; //character is on the ground
+	//private bool isGrounded; //character is on the ground
 	public Camera mainCamera; //get main camera
 	public float maxMana = 100; //fixed  max mana
+	public bool GodMode = false;
 	private float mana = 100; //fixed current mana
 	public int timeAffect = 0; //value for level of time slow effects
 	public int timeSlowDuration = 0; //value for how long of a time slow
@@ -57,11 +58,11 @@ public class PlayerControllerScript : MonoBehaviour
 		//Debug.DrawRay(gameObject.transform.position, new Vector2(0,-1));
 		if (hit.collider || hit2.collider) {
 			animator.SetBool("Jump", false);
-			isGrounded = true;
+			//isGrounded = true;
 			jumpCount = 0;
 		} else {
 			animator.SetBool("Jump", true);
-			isGrounded = false;
+			//isGrounded = false;
 		}
 	}
 
@@ -164,7 +165,7 @@ public class PlayerControllerScript : MonoBehaviour
 	}
 
 	void OnCollisionEnter2D(Collision2D collInfo) {
-		if (collInfo.gameObject.CompareTag ("Enemy") || collInfo.gameObject.CompareTag("EnemyProjectile")) {
+		if ((collInfo.gameObject.CompareTag ("Enemy") || collInfo.gameObject.CompareTag("EnemyProjectile")) && !GodMode) {
 			Destroy(gameObject);
 			//Debug.Log ("poop");
 			GameManager.userDead = true;

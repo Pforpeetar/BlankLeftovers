@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PickUpTest2 : MonoBehaviour {
 
-	private float currentTime = 0; //store time of when TimeScale is off
+	//private float currentTime = 0; //store time of when TimeScale is off
 	void Start() {
 		
 	}

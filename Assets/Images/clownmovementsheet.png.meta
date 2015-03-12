@@ -1,7 +1,17 @@
 fileFormatVersion: 2
 guid: dad36782537b80d4ebfcc4ab1adffeec
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: clownmovementsheet_0
+    21300002: clownmovementsheet_1
+    21300004: clownmovementsheet_2
+    21300006: clownmovementsheet_3
+    21300008: clownmovementsheet_4
+    21300010: clownmovementsheet_5
+    21300012: clownmovementsheet_6
+    21300014: clownmovementsheet_7
+    21300016: clownmovementsheet_8
+    21300018: clownmovementsheet_9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -21,17 +31,17 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,6 +52,106 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: clownmovementsheet_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1863
+        width: 349
+        height: 612
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: clownmovementsheet_1
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1855
+        width: 368
+        height: 641
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: clownmovementsheet_2
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1852
+        width: 384
+        height: 647
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: clownmovementsheet_3
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 1884
+        width: 416
+        height: 615
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: clownmovementsheet_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1082
+        width: 374
+        height: 625
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: clownmovementsheet_5
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1068
+        width: 381
+        height: 642
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: clownmovementsheet_6
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1047
+        width: 365
+        height: 631
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: clownmovementsheet_7
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 1068
+        width: 376
+        height: 620
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: clownmovementsheet_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 239
+        width: 368
+        height: 620
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: clownmovementsheet_9
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 250
+        width: 378
+        height: 638
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
