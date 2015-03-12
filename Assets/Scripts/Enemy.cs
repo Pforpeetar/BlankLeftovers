@@ -35,6 +35,9 @@ public class Enemy : MonoBehaviour {
 	{		
 		GameObject clonedesu = (GameObject)ScriptableObject.Instantiate (bulletToClone, placetoCreate, orientation);
 		//Debug.Log("poops: " + clonedesu);
+
+		clonedesu.gameObject.tag = "Projectile";
+
 		if (clonedesu.rigidbody2D) {
 			clonedesu.rigidbody2D.velocity = velocity;
 			//Debug.Log ("poop da doops");
