@@ -167,7 +167,8 @@ public class PlayerControllerScript : MonoBehaviour
 		if (collInfo.gameObject.CompareTag ("Enemy") || collInfo.gameObject.CompareTag("EnemyProjectile")) {
 			Destroy(gameObject);
 			//Debug.Log ("poop");
-			GameManager.updateScores();
+			GameManager.userDead = true;
+			//GameManager.updateScores();
 		}
 	}
 }

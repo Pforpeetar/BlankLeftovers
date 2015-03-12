@@ -47,9 +47,10 @@ public class HighScores : MonoBehaviour {
 			ListOfHighScores = new Score[numOfHighScores]; 
 			int index = 0;
 			string linePlease = "";
-			linePlease = currFile.ReadLine();
+
 			while (index < 13)
 			{
+				linePlease = currFile.ReadLine();
 				string[] currStageSplit = linePlease.Split('|');
 				ListOfHighScores[index] = new Score(Int32.Parse(currStageSplit[0]),currStageSplit[1],Int32.Parse(currStageSplit[2]));
 				index++;
