@@ -20,12 +20,6 @@ public class BossController : MonoBehaviour {
 		}
 	}
 
-	void OnCollisionEnter2D(Collision2D collInfo) {
-		if (collInfo.gameObject.CompareTag ("Player")) {
-			Destroy(collInfo.gameObject);
-		}
-	}
-
 	void Chasing ()
 	{
 		Vector2 Playerdirection;

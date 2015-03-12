@@ -24,19 +24,12 @@ public class Enemy : MonoBehaviour {
 		}
 	}
 
-	//when the enemy/object collides with the player, kill player
-	void OnCollisionEnter2D(Collision2D collInfo) {
-		if (collInfo.gameObject.CompareTag ("Player")) {
-			Destroy(collInfo.gameObject); //
-		}
-	}
-
 	public static GameObject cloneObject (GameObject bulletToClone, Vector3 placetoCreate, Vector3 velocity, Quaternion orientation)
 	{		
 		GameObject clonedesu = (GameObject)ScriptableObject.Instantiate (bulletToClone, placetoCreate, orientation);
 		//Debug.Log("poops: " + clonedesu);
 
-		clonedesu.gameObject.tag = "Enemy";
+		clonedesu.gameObject.tag = "EnemyProjectile";
 
 		if (clonedesu.rigidbody2D) {
 			clonedesu.rigidbody2D.velocity = velocity;

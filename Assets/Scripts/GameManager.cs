@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour {
 	private GameObject Player; //the player
 	private float initialPlayerYPos; //the initial player position
 	public List<GameObject> events = new List<GameObject>(); //event array
-	private float Score; // score count
+	public static float score; // score count
 	private bool courRunning = false; //to check to see if the courantine method is running
 	// so that it doesn't create a extra amount of objects (any logs, clowns, etc.)
 
@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour {
 			Application.LoadLevel(0);
 		}
 		if (Player != null) {
-			Score += Time.deltaTime;
+			score += Time.deltaTime;
 		}
 		if (!courRunning && Player != null) {
 			courRunning = true;
@@ -42,7 +42,26 @@ public class GameManager : MonoBehaviour {
 
 	//text for the score
 	void OnGUI() {
-		string poop = Score.ToString ("#"); //#.0 makes the decimal
+		string poop = score.ToString ("#"); //#.0 makes the decimal
 		GUI.Label (new Rect (50, 75, 100, 100), "Score: " + poop);
+	}
+
+	public static void updateScores() {
+		Score newHighScore = new Score(0, "Poop", (int) score);
+		for (int i = 0; i < HighScores.ListOfHighScores.Length; i++) {
+			if (newHighScore.score > HighScores.ListOfHighScores[i].score) {
+				if (i < 12) {
+					newHighScore.rank = HighScores.ListOfHighScores[i].rank;
+					HighScores.ListOfHighScores[i].rank--;
+					Score temp = HighScores.ListOfHighScores[i];
+					HighScores.ListOfHighScores[i] = newHighScore;
+					HighScores.ListOfHighScores[i-1] = temp;
+				} else if (i == 12) {
+					newHighScore.rank = HighScores.ListOfHighScores[i].rank;
+					HighScores.ListOfHighScores[i] = newHighScore;
+				}
+			}
+		}
+		HighScores.SaveHighScoresToFile ();
 	}
 }
