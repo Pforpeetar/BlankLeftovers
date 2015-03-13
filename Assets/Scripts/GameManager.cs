@@ -66,6 +66,14 @@ public class GameManager : MonoBehaviour {
 		GUI.Label (new Rect (50, 75, 100, 100), "Score: " + currentScore);
 
 		if (userDead) {
+			if (GUI.Button (new Rect(0, 0, Screen.width/4, Screen.height/20),"End Game")) {
+				//print ("Clicked End Game");
+				Application.Quit();
+			}
+			if (GUI.Button (new Rect(0, Screen.height/20, Screen.width/4, Screen.height/20),"Restart")) {
+				//print ("Clicked End Game");
+				Application.LoadLevel(1);
+			}
 			for (int i = 0; i <= 12; i++) {
 				GUI.Box(new Rect(Screen.width/3, Screen.height/15 + Screen.height/15 + Screen.height/15*i, Screen.width/4, Screen.height/20), HighScores.ListOfHighScores[i].name + " HighScore " + (i+1) + ": " + HighScores.ListOfHighScores[i].score);
 			}
@@ -79,10 +87,6 @@ public class GameManager : MonoBehaviour {
 			} else {
 				if (GUI.Button(new Rect(Screen.width/3, 0, Screen.width/4, Screen.height/20), "Click to resume.")) {
 					Application.LoadLevel(1);
-				}
-				if (GUI.Button (new Rect(0, 0, Screen.width/4, Screen.height/20),"End Game")) {
-					//print ("Clicked End Game");
-					Application.Quit();
 				}
 			}
 		}
