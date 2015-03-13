@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKey(KeyCode.R)) {
-			Application.LoadLevel(0);
+			Application.LoadLevel(1);
 		}
 		if (Player != null) {
 			score += Time.deltaTime;
@@ -64,7 +64,7 @@ public class GameManager : MonoBehaviour {
 				}
 			} else {
 				if (GUI.Button(new Rect(Screen.width/3, 0, Screen.width/4, Screen.height/20), "Click to resume.")) {
-					Application.LoadLevel(0);
+					Application.LoadLevel(1);
 				}
 			}
 		}
