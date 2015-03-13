@@ -22,7 +22,7 @@ public class MainMenu : MonoBehaviour
 		//(new Rect (Screen.width * .5f, Screen.height * .55f, Screen.width * .5f, Screen.height * .1f)
 		if (GUILayout.Button ("End Game")) {
 			//print ("Clicked End Game");
-			Debug.Log ("poop");
+			Application.Quit();
 			showYesNoPrompt = true;
 		}
 	

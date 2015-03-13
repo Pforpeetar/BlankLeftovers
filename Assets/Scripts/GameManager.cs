@@ -6,8 +6,10 @@ public class GameManager : MonoBehaviour {
 	private GameObject Player; //the player
 	private float initialPlayerYPos; //the initial player position
 	public List<GameObject> events = new List<GameObject>(); //event array
+	public List<GameObject> pickups = new List<GameObject>();
 	public static float score; // score count
 	private bool courRunning = false; //to check to see if the courantine method is running
+	private bool courRunning2 = false;
 	// so that it doesn't create a extra amount of objects (any logs, clowns, etc.)
 	public static string stringToEdit = "Enter name";
 	public static bool userDead;
@@ -35,15 +37,27 @@ public class GameManager : MonoBehaviour {
 			courRunning = true;
 			StartCoroutine (generateEvent());
 		}
+		if (!courRunning2 && Player != null) {
+			courRunning2 = true;
+			StartCoroutine (generatePickup());
+		}
 	}
 
 	//Random generator 
 	IEnumerator generateEvent() {
 		yield return new WaitForSeconds (2f); //executes after every two seconds
 		if (Player != null) {
-			Instantiate(events[Random.Range(0, events.Count)], new Vector2(Player.transform.position.x + 100f, initialPlayerYPos), Quaternion.identity);
+			Instantiate(events[Random.Range(0, events.Count)], new Vector2(Player.transform.position.x + 100f, 0), Quaternion.identity);
 		}
 		courRunning = false; //set to false to not invoke this method each frames
+	}
+
+	IEnumerator generatePickup() {
+		yield return new WaitForSeconds (2f); //executes after every two seconds
+		if (Player != null) {
+			Instantiate(pickups[Random.Range(0, pickups.Count)], new Vector2(Player.transform.position.x + 100f, Random.Range(0, 20)), Quaternion.identity);
+		}
+		courRunning2 = false; //set to false to not invoke this method each frames
 	}
 
 	//text for the score
@@ -65,6 +79,10 @@ public class GameManager : MonoBehaviour {
 			} else {
 				if (GUI.Button(new Rect(Screen.width/3, 0, Screen.width/4, Screen.height/20), "Click to resume.")) {
 					Application.LoadLevel(1);
+				}
+				if (GUI.Button (new Rect(0, 0, Screen.width/4, Screen.height/20),"End Game")) {
+					//print ("Clicked End Game");
+					Application.Quit();
 				}
 			}
 		}
