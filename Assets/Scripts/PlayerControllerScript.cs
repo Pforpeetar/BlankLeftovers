@@ -19,6 +19,7 @@ public class PlayerControllerScript : MonoBehaviour
 	public int timeSlowDuration = 0; //value for how long of a time slow
 	public float eventStartSlowTime = 0; //value of start time of slow time event
 	public static bool overlap = false; //
+	private float yVelCap = 100f;
 
 	public GameObject pRangePrefab; //Projectile prefab
 
@@ -37,7 +38,12 @@ public class PlayerControllerScript : MonoBehaviour
 	void Update ()
 	{
 		checkTimeSlow(); //check for Time Slow Events
-
+		if (rigidbody2D.velocity.y > yVelCap) {
+			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, yVelCap);
+		}
+		if (rigidbody2D.velocity.y < -yVelCap) {
+			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, -yVelCap);
+		}
 		mana += Time.deltaTime * 40f;
 		walkVel += Time.deltaTime / 3;
 		if (mana > maxMana) {

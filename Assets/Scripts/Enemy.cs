@@ -7,6 +7,8 @@ public class Enemy : MonoBehaviour {
 	Vector2 dir;
 	private float currTime;
 	public float cooldown = 5;
+	public float speed = 10;
+	private float yVelCap = 100f;
 
 	void Start() {
 		Player = GameObject.FindGameObjectWithTag ("Player");
@@ -14,7 +16,13 @@ public class Enemy : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		rigidbody2D.velocity = new Vector2(-10, rigidbody2D.velocity.y);
+		if (rigidbody2D.velocity.y > yVelCap) {
+			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, yVelCap);
+		}
+		if (rigidbody2D.velocity.y < -yVelCap) {
+			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, -yVelCap);
+		}
+		rigidbody2D.velocity = new Vector2(-speed, rigidbody2D.velocity.y);
 		if (Player != null) {
 			if (currTime <= Time.time) {
 				currTime = Time.time + cooldown;
