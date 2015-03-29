@@ -8,6 +8,7 @@ public class PlayerControllerScript : MonoBehaviour
 	public Direction direction; //0 is down, 1 is up, 2 is left, 3 is right
 	public Animator animator; //Animation
 	public float walkVel = 20; //velocity of the characters start
+	public float highestWalkVel = 0; //velocity of walk vel.
 	public float jumpVel; //characters jump velocity
 	public int jumpCount = 0; 
 	//private bool isGrounded; //character is on the ground
@@ -43,6 +44,9 @@ public class PlayerControllerScript : MonoBehaviour
 		}
 		if (rigidbody2D.velocity.y < -yVelCap) {
 			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, -yVelCap);
+		}
+		if (walkVel >= highestWalkVel) {
+			highestWalkVel = walkVel;
 		}
 		mana += Time.deltaTime * 40f;
 		walkVel += Time.deltaTime / 3;

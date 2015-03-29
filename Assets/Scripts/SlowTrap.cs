@@ -14,7 +14,7 @@ public class SlowTrap : MonoBehaviour {
 	void SlowPlayer(Collision2D collInfo)
 	{
 		p = collInfo.gameObject.GetComponent<PlayerControllerScript> ();
-		tempVel = p.walkVel;
+		tempVel = p.highestWalkVel;
 		p.walkVel /= 2f;
 	}
 
