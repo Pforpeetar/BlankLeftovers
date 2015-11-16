@@ -16,7 +16,7 @@ public class BossController : MonoBehaviour {
 			playerTransform = player.transform.position;
 			Chasing ();
 		} else {
-			rigidbody2D.velocity = new Vector2(speed, 0);
+			GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0);
 		}
 	}
 
@@ -29,6 +29,6 @@ public class BossController : MonoBehaviour {
 		Ydif = playerTransform.y - transform.position.y;
 		
 		Playerdirection = new Vector2 (Xdif, Ydif);
-		rigidbody2D.velocity = (Playerdirection.normalized * speed);
+		GetComponent<Rigidbody2D>().velocity = (Playerdirection.normalized * speed);
 	}
 }

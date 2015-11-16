@@ -9,9 +9,9 @@ public class MoveBackground : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D collInfo) {
 		//Vector3 center = camera.renderer.bounds.center;
 		float height = camera.orthographicSize * 2f;
-		float newHeight = gameObject.renderer.bounds.size.y;
+		float newHeight = gameObject.GetComponent<Renderer>().bounds.size.y;
 		float width = height / (float)Screen.height * (float)Screen.width;
-		float newWidth = gameObject.renderer.bounds.size.x;
+		float newWidth = gameObject.GetComponent<Renderer>().bounds.size.x;
 		if (collInfo.CompareTag("Camera")) {
 //			Debug.Log("Colliding");
 			//transform.position = camera.ScreenToWorldPoint(screenPosition);

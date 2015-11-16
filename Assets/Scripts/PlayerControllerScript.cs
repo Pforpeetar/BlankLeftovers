@@ -39,11 +39,11 @@ public class PlayerControllerScript : MonoBehaviour
 	void Update ()
 	{
 		checkTimeSlow(); //check for Time Slow Events
-		if (rigidbody2D.velocity.y > yVelCap) {
-			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, yVelCap);
+		if (GetComponent<Rigidbody2D>().velocity.y > yVelCap) {
+			GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, yVelCap);
 		}
-		if (rigidbody2D.velocity.y < -yVelCap) {
-			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, -yVelCap);
+		if (GetComponent<Rigidbody2D>().velocity.y < -yVelCap) {
+			GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, -yVelCap);
 		}
 		if (walkVel >= highestWalkVel) {
 			highestWalkVel = walkVel;
@@ -94,9 +94,9 @@ public class PlayerControllerScript : MonoBehaviour
 //Sets the direction for the player
 	void SetDirection ()
 	{
-			if (rigidbody2D.velocity.x < 0) {
+			if (GetComponent<Rigidbody2D>().velocity.x < 0) {
 					direction = Direction.left;
-			} else if (rigidbody2D.velocity.x > 0) {
+			} else if (GetComponent<Rigidbody2D>().velocity.x > 0) {
 					direction = Direction.right;
 			}
 	}
@@ -104,7 +104,7 @@ public class PlayerControllerScript : MonoBehaviour
 //Sets the walking animation for the player if they are moving
 	void setWalk ()
 	{
-			if (rigidbody2D.velocity.x != 0) {
+			if (GetComponent<Rigidbody2D>().velocity.x != 0) {
 				//animator.SetBool("Walk", true);
 					if (direction == Direction.left) {
 						transform.localScale = new Vector3(-1,transform.localScale.y,transform.localScale.z);
@@ -117,7 +117,7 @@ public class PlayerControllerScript : MonoBehaviour
 //Sets the idle animation for the player if velocities are 0
 	void setIdle ()
 	{
-			if (rigidbody2D.velocity.x == 0) {
+			if (GetComponent<Rigidbody2D>().velocity.x == 0) {
 			//animator.SetBool("Walk", false);
 			}
 	}
@@ -128,10 +128,10 @@ public class PlayerControllerScript : MonoBehaviour
 		//Consider modifying the same vector everytime instead of creating a new one, performance win?
 		if (PlayerInfo.GetState().Equals(PState.normal)) {
 			//rigidbody2D.velocity = new Vector2 (Input.GetAxis ("Horizontal") * walkVel, gameObject.rigidbody2D.velocity.y);
-			rigidbody2D.velocity = new Vector2 (walkVel, gameObject.rigidbody2D.velocity.y);
+			GetComponent<Rigidbody2D>().velocity = new Vector2 (walkVel, gameObject.GetComponent<Rigidbody2D>().velocity.y);
 			if (Input.GetButtonDown ("Jump")) {
 				if (jumpCount < 1) {
-				rigidbody2D.velocity = new Vector2(gameObject.rigidbody2D.velocity.x, jumpVel);
+				GetComponent<Rigidbody2D>().velocity = new Vector2(gameObject.GetComponent<Rigidbody2D>().velocity.x, jumpVel);
 				jumpCount++;
 				}
 			}

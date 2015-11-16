@@ -16,13 +16,13 @@ public class Enemy : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (rigidbody2D.velocity.y > yVelCap) {
-			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, yVelCap);
+		if (GetComponent<Rigidbody2D>().velocity.y > yVelCap) {
+			GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, yVelCap);
 		}
-		if (rigidbody2D.velocity.y < -yVelCap) {
-			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, -yVelCap);
+		if (GetComponent<Rigidbody2D>().velocity.y < -yVelCap) {
+			GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, -yVelCap);
 		}
-		rigidbody2D.velocity = new Vector2(-speed, rigidbody2D.velocity.y);
+		GetComponent<Rigidbody2D>().velocity = new Vector2(-speed, GetComponent<Rigidbody2D>().velocity.y);
 		if (Player != null) {
 			if (currTime <= Time.time) {
 				currTime = Time.time + cooldown;
@@ -37,13 +37,13 @@ public class Enemy : MonoBehaviour {
 		GameObject clonedesu = (GameObject)ScriptableObject.Instantiate (bulletToClone, placetoCreate, orientation);
 		//Debug.Log("poops: " + clonedesu);
 
-		if (clonedesu.rigidbody2D) {
-			clonedesu.rigidbody2D.velocity = velocity;
+		if (clonedesu.GetComponent<Rigidbody2D>()) {
+			clonedesu.GetComponent<Rigidbody2D>().velocity = velocity;
 			//Debug.Log ("poop da doops");
 		}
-		if(clonedesu.audio)
+		if(clonedesu.GetComponent<AudioSource>())
 		{
-			clonedesu.audio.Play();
+			clonedesu.GetComponent<AudioSource>().Play();
 		}
 		return clonedesu;
 	}

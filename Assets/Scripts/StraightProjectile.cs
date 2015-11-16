@@ -40,13 +40,13 @@ public class StraightProjectile : BulletDesu {
 	{		
 		GameObject clonedesu = (GameObject)ScriptableObject.Instantiate (bulletToClone, placetoCreate, orientation);
 		//Debug.Log("poops: " + clonedesu);
-		if (clonedesu.rigidbody2D) {
-			clonedesu.rigidbody2D.velocity = velocity;
+		if (clonedesu.GetComponent<Rigidbody2D>()) {
+			clonedesu.GetComponent<Rigidbody2D>().velocity = velocity;
 			//Debug.Log ("poop da doops");
 		}
-		if(clonedesu.audio)
+		if(clonedesu.GetComponent<AudioSource>())
 		{
-			clonedesu.audio.Play();
+			clonedesu.GetComponent<AudioSource>().Play();
 		}
 		return clonedesu;
 	}

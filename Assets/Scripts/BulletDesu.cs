@@ -32,13 +32,13 @@ public abstract class BulletDesu : MonoBehaviour {
 		//	animator.SetBool ("Does Collide", true);} //not all objects that this script is attached to have animations
 		if (collInfo.gameObject.CompareTag(TargetType))
 		{
-			DamageStruct thisisntastructanymore = new DamageStruct(damageValue,collider2D.gameObject,knockBackVelocity,hitDelay);
+			DamageStruct thisisntastructanymore = new DamageStruct(damageValue,GetComponent<Collider2D>().gameObject,knockBackVelocity,hitDelay);
 			//struct used to pass more than one parameter through send message, which only lets you pass one object as a parameter
 			collInfo.gameObject.SendMessage("callDamage",thisisntastructanymore);
 		}
 		if (destroyOnCollision == true) {
-			gameObject.collider2D.enabled = false; //once it hits one object it should no longer be able to hit another object
-			rigidbody2D.velocity = new Vector2(0,0);
+			gameObject.GetComponent<Collider2D>().enabled = false; //once it hits one object it should no longer be able to hit another object
+			GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
 			Destroy(gameObject, animationDuration);
 		}
 		Destroy(gameObject, projectileDuration);
