@@ -1,10 +1,19 @@
+# Clown Runner
+
 Only has a Windows version.
 
-Instructions:
+##Instructions:
 
 Run BlankLeftovers.exe
 
-Controls:
+###Controls:
 Left click and hold to create collidable platforms that character can walk on. Can also block the enemy chasing you.
 Press space to jump.
 Press r to retry.
+
+
+#### Contributors
+	* Ceci Tran
+	* Peter Pham
+	* Dennis Hsu
+	* Andrew Soto
