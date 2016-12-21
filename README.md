@@ -16,4 +16,3 @@ Press r to retry.
 	* Ceci Tran
 	* Peter Pham
 	* Dennis Hsu
-	* Andrew Soto
